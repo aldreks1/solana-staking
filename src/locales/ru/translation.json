@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "Добро пожаловать на Solana Staking",
+    "description": "Лучший сервис стекинга на солане"
+  },
+  "about": {
+    "title": "О нас",
+    "description": "We are a team dedicated to providing the best staking services."
+  },
+  "contact": {
+    "title": "Конакты",
+    "description": "Текст"
+  },
+  "services": {
+    "title": "Услуги",
+    "description": "Текст"
+  },
+  "navbar": {
+    "home": "Главная",
+    "about": "О нас",
+    "services": "Услуги",
+    "contact": "Контакты"
+  },
+  "footer": {
+    "companyName": "Solana Staking",
+    "rights": "Все права защищены"
+  }
+}

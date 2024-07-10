@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "Welcome to Solana Staking",
+    "description": "Best staking services for Solana."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a team dedicated to providing the best staking services."
+  },
+  "contact": {
+    "title": "Contacts",
+    "description": "Text"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Text"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "footer": {
+    "companyName": "Solana Staking",
+    "rights": "All rights reserved"
+  }
+}
