@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Container from "../Container";
+import styles from "./Footer.module.scss";
 const Footer: React.FC = () => {
   const { t } = useTranslation();
 
@@ -13,7 +14,7 @@ const Footer: React.FC = () => {
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2"
+              className={styles.footer_link}
             >
               Facebook
             </a>
@@ -21,7 +22,7 @@ const Footer: React.FC = () => {
               href="https://www.twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2"
+              className={styles.footer_link}
             >
               Twitter
             </a>
@@ -29,7 +30,7 @@ const Footer: React.FC = () => {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-2"
+              className={styles.footer_link}
             >
               LinkedIn
             </a>

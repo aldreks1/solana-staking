@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-primary">{t("home.title")}</h1>
-      <p className="mt-4 text-lg text-secondary">{t("home.description")}</p>
+      <p className="mt-4 text-lg text-white">{t("home.description")}</p>
     </div>
   );
 };

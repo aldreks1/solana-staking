@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
-      <div className="bg-background">
+      <div className="bg-background min-h-screen pt-10">
         <Container>
           <Suspense fallback={<div>Loading...</div>}>
             <Routes>

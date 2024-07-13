@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+header {
+  nav {
+    .header_navigation_list {
+      .header_navigation_item {
+        color: white;
+        position: relative;
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition-duration: 400ms;
+        transition-property: color;
+      }
+      .header_navigation_item:hover {
+        color: $primary;
+      }
+
+      .header_navigation_item:hover:after {
+        width: 100%;
+        left: 0%;
+      }
+
+      .header_navigation_item:after {
+        content: "";
+        pointer-events: none;
+        bottom: -2px;
+        left: 50%;
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background-color: $primary;
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition-duration: 400ms;
+        transition-property: width, left;
+      }
+    }
+  }
+}
